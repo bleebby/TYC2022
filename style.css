@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+#hangman {
+    margin: 0px auto;
+    border: 1px dotted black;
+    height: 33vh;
+    width: 33vw;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+#alphabet {
+    margin: 40px auto;
+    padding: 0;
+    max-width: 900px;
+}
+  
+#alphabet li {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    width: 35px;
+    height: 30px;
+    padding-top: 10px;
+    background: green;
+    color: black;
+    cursor: pointer;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+#alphabet li:hover{
+    background: greenyellow;
+    border: solid 1px white;
+    color: black;
+}
+
+
+#blanks {
+    font-weight: bold;
+    font-size: 100px;
+}
